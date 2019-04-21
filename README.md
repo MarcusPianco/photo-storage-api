@@ -54,7 +54,7 @@ Execute: `yarn build` or `npm build` (when use npm)
 Nodemon: Listen for all the changes in js/ts files, configured in "nodemon.json" file
 
 install: `yarn add -D nodemon`
-configuring: 1) Create a nodemon.jon file in root path project
+configuring: 1) Create a nodemon.json file in root path project
 2) Configure nodemon file
 ```
 {
@@ -68,8 +68,8 @@ configuring: 1) Create a nodemon.jon file in root path project
     }
 }
 ```
-3) Change the node command {... node server.ts...} in package.json to
-nodemon server.ts
+3) Change the node command {... `node server.ts` ...} in package.json to
+`nodemon server.ts`
 
 Eslint: Standardization os source code, this plugn is very usefull when we are developing in a team or open source colaboration projects.
 
@@ -77,7 +77,7 @@ Install: `yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint
 
 Configuring: 1) Execute the command: `yarn eslint --init` or `npm eslint --init`
 2) Choice the 3rd option "To Check syntax, find problems, and enfor..." and press enter
-3) Select "JavaScript modules (import/export)" and press "enter"
+3) Select "JavaScript modules `(import/export)`" and press "enter"
 4) Choice "None of these" and press enter
 5) Select "Node" option, you need to use "space" in the keyboard to select "Node option". Please unselect the "Browser" option if selected.
 6) Choice the use a "Popular style guide", and press enter
@@ -85,7 +85,7 @@ Configuring: 1) Execute the command: `yarn eslint --init` or `npm eslint --init`
 8) Choice configuration file format, please select "java Script" option, and press enter.
 
 To wait the library installs
-Obs:. If you want to use only yarn to manage of the libs, you need to remove the "package-lock.json" and run the command: `yarn` in the project folder and the yarn will go to capture the new dependencies installed with "npm".
+Obs:. If you want to use only yarn to manage of the libs, you need to remove the "package-lock.json" and run the command: `yarn` in the project folder and the yarn will go to capture the new dependencies installed with `npm`.
 
 Editing .eslint file:
 
@@ -153,7 +153,7 @@ Close the VS Code Application and re-open in your project.
 If you find some bugs about the development behavior configuration please create up an issue and share with us your problem.
 
 Things to do:
-Review the english sentences;
-Put Adonis Types Set for typescript and configure;
-Create a Docker tutorial and to include in README.md;
+* Review the english sentences;
+* Put Adonis Types Set for typescript and configure;
+* Create a Docker tutorial and to include in README.md;
 And more things that you considered cool...
