@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 3333
 
-CMD ["node", "server.js","--dev"]
+CMD ["node", "server.ts","--dev"]
