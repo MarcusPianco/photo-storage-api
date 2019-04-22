@@ -1,12 +1,12 @@
-Photo Storage Api
+## Photo Storage Api
 
 A simple example to use AdonisJS to proveider resources.
 
-Frameworks:
+## Frameworks:
 
 AdoniJS
 
-Node Dependencies:
+## Node Dependencies:
 
 - Packages:
   - Adonis
@@ -17,7 +17,7 @@ Node Dependencies:
   - Eslint
   - Prettier
 
-Configuring the behavior development
+## Configuring the behavior development
 
 In the next lines we will see how configure a standard development behavior
 development using adonisJS + typescript + sucrase + nodemon. this configuration ins very important when we are to working in a collaboratives projects, and facilitate the process of inspection and fetch of problems.
@@ -161,7 +161,7 @@ Close the VS Code Application and re-open in your project.
 
 If you find some bugs about the development behavior configuration please create up an issue and share with us your problem.
 
-Things to do:
+## Things to do:
 
 - Review the english sentences;
 - Put Adonis Types Set for typescript and configure;
